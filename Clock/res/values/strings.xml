@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">IsaaClock</string>
+
+    <!-- Random data -->
+    <string name="day_monday">Mon</string>
+    <string name="day_tueasday">Tue</string>
+    <string name="day_wednesday">Wed</string>
+    <string name="day_thursday">Thu</string>
+    <string name="day_friday">Fri</string>
+    <string name="day_saturday">Sat</string>
+    <string name="day_sunday">Sun</string>
+    <string name="time_not_set">---</string>
+    <string name="alarm_not_set">No alarm set</string>
+    <string name="image_desc">Image desc</string>
+    <string name="score_no_data">No info available</string>
+    
+    <!-- Progress dialog -->
+    <string name="dialog_title">Loading</string>
+    <string name="dialog_message">Please wait</string>
+     
+    <!-- Error messages -->
+    <string name="error_no_connection">An unknown error has occurred. Please try again.</string>
+    <string name="error_empty">Email and/or password is empty. Please fill in all fields.</string>
+    <string name="error_password">Password needs to be at least 6 characters long, requires at least one upper and one lower case letter, one number, and one special character ( @#$%\\. )</string>
+    <string name="error_login">Unable to log in using current data. Please check if the user email and password are correct or use different data.</string>
+    <string name="error_register">Unable to register using current data. Please try using different email.</string>
+    <string name="error_not_online">No internet connection detected. Please connect before loggin in.</string>
+    
+    <!-- AlarmService -->
+    <string name="service_note_title">IsaaClock</string>
+    <string name="service_note_message">Next alarm set for: </string>
+
+    <!-- Menus -->
+    <string name="menu_settings">Settings</string>
+    <string name="menu_logout">Logout</string>
+
+    <!-- Preferences -->
+    <string name="pref_category_display">Display</string>
+    <string name="pref_category_sound">Sound</string>
+    <string name="pref_option_24h_time">Use 24 hour time display</string>
+    <string name="pref_option_summary_24h_time">Turning this option on enables 24 hour time display. Turning it off keeps the AM/PM time display.</string>
+    <string name="pref_option_set_alarm_sound">Set alarm sound</string>
+    <string name="pref_option_summary_set_alarm_sound">Change the alarm sound here.</string>
+
+    <!-- LoginActivity -->
+    <string name="activity_login_text_hint_email">Email</string>
+    <string name="activity_login_text_hint_password">Password</string>
+    <string name="activity_login_button_login">Login</string>
+    <string name="activity_login_button_new_user">Create new account</string>
+    <string name="activity_login_button_exit">Exit</string>
+    <string name="activity_login_text_login_prompt">Welcome to IsaaClock! Please log in.</string>
+    <string name="activity_login_text_no_account_prompt">Don\'t have an account yet? Feel free to create one!</string>
+    <string name="activity_login_checkbox_prompt">Remember user.</string>
+
+    <!-- RegisterActivity -->
+    <string name="activity_register_text_hint_email">Email</string>
+    <string name="activity_register_text_hint_password">Password</string>
+    <string name="activity_register_text_hint_password_repeat">Repeat password</string>
+    <string name="activity_register_text_hint_first_name">First name</string>
+    <string name="activity_register_text_hint_last_name">Last name</string>
+    <string name="activity_register_button_register">Register user</string>
+    <string name="activity_register_text_register_prompt">Please fill in the form below.</string>
+    <string name="activity_register_passwords_dont_match">The passwords don\'t match. Please try again.</string>
+    <string name="activity_register_empty_fields">Some of the fields are empty. Please try again.</string>
+
+    <!-- UserActivity -->
+    <string name="activity_user_tab_name_general">General</string>
+    <string name="activity_user_tab_name_alarms">Alarms</string>
+    <string name="activity_user_tab_name_achievements">Achievements</string>
+    <string name="activity_user_tab_name_leaderboard">Leaderboard</string>
+    <string name="activity_user_tab_name_notifications">Notifications</string>
+    <string name="activity_user_menu_logout">Logout</string>
+
+    <!-- AlarmActivity -->
+    <string name="activity_alarm_prompt">Rise and shine! Ready to wake up?</string>
+    <string name="activity_alarm_button_off">WAKE UP</string>
+    <string name="activity_alarm_button_snooze">SNOOZE</string>
+
+    <!-- GeneralFragment -->
+    <string name="fragment_general_user_score_prompt">Score:</string>
+    <string name="fragment_general_next_alarm_prompt">Next alarm:</string>
+    <string name="fragment_general_button_show_score">Show more</string>
+    <string name="fragment_general_button_show_alarms">Show more</string>
+
+    <!-- AlarmsFragment -->
+    <string name="fragment_alarms_fragment_name">Alarms Fragment</string>
+    <string name="fragment_alarms_item_default_day">default_day</string>
+    <string name="fragment_alarms_item_default_time">default_time</string>
+    <string name="fragment_alarms_image_desc">image_desc</string>
+    <string name="fragment_alarms_button_add">Add alarm</string>
+    <string name="fragment_alarms_dialog_title">Alarm options</string>
+    <string name="fragment_alarms_dialog_button_cancel">Cancel</string>
+    <string name="fragment_alarms_dialog_option_change_time">Change alarm time</string>
+    <string name="fragment_alarms_dialog_option_deactivate">Deactivate alarm</string>
+
+    <!-- AchievementsFragment -->
+    <string name="fragment_achievements_fragment_name">Achievements Fragment</string>
+    <string name="fragment_achievements_default_name">Achievement name</string>
+    <string name="fragment_achievements_default_desc">Achievement description</string>
+    <string name="fragment_achievements_empty">No achievements</string>
+
+    <!-- LeaderboardFragment -->
+    <string name="fragment_leaderboard_fragment_name">Leaderboard Fragment</string>
+    <string name="fragment_leaderboard_empty">No leaderboard</string>
+
+    <!-- NotificationsFragment -->
+    <string name="fragment_notifications_fragment_name">Notifications Fragment</string>
+    <string name="fragment_notifications_empty">No notifications</string>
+
+</resources>
