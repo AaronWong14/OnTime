@@ -1,0 +1,8 @@
+https://maps.googleapis.com/maps/api/distancematrix/json?origins=College+Ten+Santa+Cruz+CA&destinations=Silver+Creek+High+School+San+Jose+CA&departure_time=now&key=AIzaSyDYyo_t0q9Jk2WJyY5rKeGeq8x2DZfBpEc
+
+
+String starting_location; //takes in the string of the starting locaiton
+String final_destination;//where the user wants to go
+String departure_time; //
+
+string final = "https://maps.googleapis.com/maps/api/distancematrix/jason?origins=" + starting_location + "&destinations=" + final_destination + "&departure_time=" + departure_time +"&key=AIzaSyDYyo_t0q9Jk2WJyY5rKeGeq8x2DZfBpEc";
