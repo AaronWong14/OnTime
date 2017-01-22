@@ -33,6 +33,7 @@ public class MainActivity extends AppCompatActivity{
     String address;
     PendingIntent pending_intent;
     boolean went_sec = false; // Checks if we went to second page
+    Boolean going_LA = false;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -84,6 +85,9 @@ public class MainActivity extends AppCompatActivity{
                 //get int of hour and minutes
                 int hour = alarm_timepicker.getHour();
                 int minute = alarm_timepicker.getMinute();
+                if(going_LA){
+                    minute = minute - 30;
+                }
 
                 if(hour > 12){
                     hour = hour % 12;
@@ -159,6 +163,9 @@ public class MainActivity extends AppCompatActivity{
                 // get String data from Intent
                 String returnString = data.getExtras().getString("some_key");
                 Log.e("works",returnString);
+                if(returnString.equals("LA")){
+                    going_LA = true;
+                }
                 // set text view with string
                 //TextView textView = (TextView) findViewById(R.id.textView);
                 //textView.setText(returnString);
